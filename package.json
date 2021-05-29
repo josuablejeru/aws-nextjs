@@ -1,6 +1,9 @@
 {
   "name": "aws-nextjs",
   "version": "0.1.0",
+  "description": "Deploy you Next.js apps easy with CDK on AWS",
+  "author": "Josua Blejeru",
+  "homepage": "https://github.com/josuablejeru/aws-nextjs",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
