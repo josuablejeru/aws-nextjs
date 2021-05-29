@@ -1,12 +1,14 @@
-# Welcome to your CDK TypeScript Construct Library project!
+# aws-nextjs
 
-You should explore the contents of this project. It demonstrates a CDK Construct Library that includes a construct (`AwsNextjs`)
-which contains an Amazon SQS queue that is subscribed to an Amazon SNS topic.
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+This package helps you to deploy your next.js webapp fast on AWS.
 
-The construct defines an interface (`AwsNextjsProps`) to configure the visibility timeout of the queue.
+## ✌️ Get in touch with me
 
-## Useful commands
+<a href="https://into-the-code.com" target="_blank"><img alt="Personal Website" src="https://img.shields.io/badge/Personal%20Website-%2312100E.svg?&style=for-the-badge&logoColor=white" /></a>
+<a href="https://twitter.com/josuablejeru" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/josua-blejeru-a2871a164" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `npm run test`    perform the jest unit tests
+## 📝 License
+
+Distributed under the MIT License. See LICENSE for more information.
