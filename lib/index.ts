@@ -3,6 +3,7 @@ import * as s3 from "@aws-cdk/aws-s3";
 import * as lambda from "@aws-cdk/aws-lambda";
 import * as cloudfront from "@aws-cdk/aws-cloudfront";
 import * as origin from "@aws-cdk/aws-cloudfront-origins";
+import { resolve } from "path";
 
 export interface AwsNextjsProps {
   frontendName: string;
@@ -36,7 +37,7 @@ export class AwsNextjs extends cdk.Construct {
       {
         runtime: lambda.Runtime.NODEJS_4_3,
         handler: "edge-proxy.handler",
-        code: lambda.Code.fromAsset("lambda"),
+        code: lambda.Code.fromAsset(`${resolve(__dirname)}/../lambda/`),
       }
     );
 

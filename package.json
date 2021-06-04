@@ -29,6 +29,6 @@
     "@aws-cdk/aws-cloudfront-origins": "^1.106.1",
     "@aws-cdk/aws-lambda": "^1.106.1",
     "@aws-cdk/aws-s3": "^1.106.1",
-    "@aws-cdk/core": "1.106.1"
+    "@aws-cdk/core": "^1.106.1"
   }
 }
