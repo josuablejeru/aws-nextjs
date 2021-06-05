@@ -3,6 +3,26 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 This package helps you to deploy your next.js webapp fast on AWS.
 
+## 🚀 Usage
+
+### html export
+
+To serve the Frontend over Cloudfront we need a static version of your webapp.
+Use one of the two methods to do so.
+For more informations, please visit the official nextjs documentation [here](https://nextjs.org/docs/advanced-features/static-html-export).
+
+```bash
+$ next build && next export
+```
+
+```json
+{
+    "scripts: {
+        build: "next build && next export"
+    }
+}
+```
+
 ## ✌️ Get in touch with me
 
 <a href="https://into-the-code.com" target="_blank"><img alt="Personal Website" src="https://img.shields.io/badge/Personal%20Website-%2312100E.svg?&style=for-the-badge&logoColor=white" /></a>
