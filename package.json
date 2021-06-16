@@ -1,7 +1,7 @@
 {
   "name": "aws-nextjs",
   "version": "0.1.0",
-  "description": "Deploy you Next.js apps easy with CDK on AWS",
+  "description": "Deploy your Next.js apps easy on AWS",
   "author": "Josua Blejeru",
   "homepage": "https://github.com/josuablejeru/aws-nextjs",
   "main": "lib/index.js",
@@ -25,10 +25,11 @@
     "@aws-cdk/core": "1.106.1"
   },
   "dependencies": {
-    "@aws-cdk/aws-cloudfront": "^1.106.1",
-    "@aws-cdk/aws-cloudfront-origins": "^1.106.1",
-    "@aws-cdk/aws-lambda": "^1.106.1",
-    "@aws-cdk/aws-s3": "^1.106.1",
-    "@aws-cdk/core": "^1.106.1"
+    "@aws-cdk/aws-cloudfront": "^1.108.1",
+    "@aws-cdk/aws-cloudfront-origins": "^1.108.1",
+    "@aws-cdk/aws-lambda": "^1.108.1",
+    "@aws-cdk/aws-s3": "^1.108.1",
+    "@aws-cdk/aws-s3-deployment": "^1.108.1",
+    "@aws-cdk/core": "1.108.1"
   }
 }
